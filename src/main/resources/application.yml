@@ -1,0 +1,9 @@
+amazon:
+  region: us-east-2
+  endpoint: dynamodb.us-east-2.amazonaws.com
+  
+spring:
+  profiles:
+    active: dev
+cap:
+  importFile: classesImported.json
